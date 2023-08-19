@@ -1,5 +1,84 @@
+<!DOCTYPE html>
 <html>
     <head>
-    <title>i love sneakers</title>
+    <title>Sneakers Site</title>
     </head>
+    <body>
+        <style>
+            body {
+              background-image: url('Background img.jpg');
+            }
+            </style>
+        <h1 style="font-style: normal;">Sneakers Survey Form</h1>
+        <h2 style="font-weight: 200;">Home</h2>
+        <p1>Welcome to Sneaker's site.</p1>
+        <h3 style="font-style: normal;">About</h3>
+        <p3>A trusted sneakers site</p3>
+        <h4 style="font-style: italic;">Our Products</h4>
+        <p4>All types of sneakers.</p4>
+    <h5 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Please fill in your details</h5>
+    <form>
+        <style>
+            form {
+              background-image: url('Sneakers.jpg');
+            }
+            </style>
+        <label for=fname>First Name</label><br>
+        <input type="text" id="fname"><br>
+        <label for=mname>Middle Name</label><br>
+        <input type="text" id="mname"><br>
+        <label for=lname>Last Name</label><br>
+        <input type="text" id="lname"><br>
+        <label for=emailadd>Email</label><br>
+        <input type="email" id="emailadd"><br>
+        <label for="gender">Select your Gender:</label><br>
+        <input type="radio" id="gender" value="Male">Male<br>
+        <input type="radio" id="gender" value="Female">Female<br>
+        <input type="radio" id="gender" value="I'd rather not say">I'd rather not say<br>
+        <div class="form-control">
+            <label for="sneakers">Select the Sneakers you like.</label>
+            <select name="sneakers" id="Sneakers">
+                <option value="nike">Nike Airforce</option><br> 
+                <option value="nike">Nike AirMax</option><br>
+                <option value="addidas">Addidas</option><br>
+                <option value="newbalance">New Balance</option><br>
+                <option value="martinboots">Martin Boots</option><br>
+                <option value="nikejordan4">Nike Jordan 4</option><br>
+                <option value="nikejordan1">Nike Jordan 1</option><br>
+                <option value="Converse">Converse</option><br> 
+            </select>
+                </div>
+        <div class="form-control">
+            <label for="sneakers">Would you recommend sneakers to anyone?</label><br>
+            <input type="radio" id="sneakers" value="yes">Yes<br>
+            <input type="radio" id="sneakers" value="no">No<br>
+            <input type="radio" id="sneakers" value="maybe">Maybe<br>
+        </div>
+        <div class="form-control">
+            <label for="sneakers">Select your area of delivery.</label><br>
+            <input type="checkbox" id="area" name="area" value="Nairobi">Nairobi<br>
+            <input type="checkbox" id="area" name="area" value="Mombasa">Mombasa<br>
+            <input type="checkbox" id="area" name="area" value="Nakuru">Nakuru<br>
+            <input type="checkbox" id="area" name="area" value="Kisumu">Kisumu<br>
+            <input type="checkbox" id="area" name="area" value="Machakos">Machakos<br>
+            <input type="checkbox" id="area" name="area" value="Makueni">Makueni<br>
+            <input type="checkbox" id="area" name="area" value="Nyali">Nyali<br>
+            <input type="checkbox" id="area" name="area" value="Nyali">Nyali<br>
+            <input type="checkbox" id="area" name="area" value="Eldoret">Eldoret<br>
+        </div>
+        <div class="form-control">
+            <label for="sneakers">What mode of payment do you prefer?</label><br>
+            <input type="checkbox" id="modeofpayment" name="modeofpayment" value="cash">Cash<br>
+            <input type="checkbox" id="modeofpayment" name="modeofpayment" value="creditcard">Credit card<br>
+        </div> <input type="checkbox" id="modeofpayment" name="modeofpayment" value="mpesa">Mpesa<br>
+        <div class="form-control">
+            <label for="sneakers">Rate the services.</label><br>
+            <input type="radio" id="rate" value="rate">Satisfactory<br> 
+            <input type="radio" id="rate" value="rate">Very good<br>
+            <input type="radio" id="rate" value="rate">Good<br>
+            <input type="radio" id="rate" value="rate">Appealing<br>
+        </div>
+        <input type="submit" value="Submit" style="color: coral;">
+    </form>
+    </body>
 </html>
